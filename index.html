@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="socialbook_img\images\logo.png" class="logo" />
+            <img src="socialbook_img\images\notification.png" class="logo s"  />
+            <img src="socialbook_img\images\message.png" class="logo s" />
+            <img src="socialbook_img\images\video.png" class="logo s" />
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="socialbook_img\images\search.png" height="30px" />
+                <input type="text" placeholder="search" />
+            </div>
+
+            <div class="user" onclick="settingmenuetoggle()">
+                <img src="socialbook_img\images\profile-pic.png" />
+            </div>
+        </div>
+        <div class="setting">
+            <div id="btn"> 
+                <span id="a"></span>
+            </div>
+            <div class="post-name">
+                <img src="socialbook_img\images\status-1.png" />
+                <div class="p-text">
+                    <p>John Nicohloson</p>
+                    <a href="#" class="blue">See more</a>
+                   
+                </div>
+            </div>
+        <div class="divider"></div>
+            <div class="post-name">
+                <img src="socialbook_img\images\feedback.png" />
+                <div class="p-text">
+                    <p>Give feedback</p>
+                    <a href="#" class="blue">help us to improve design</a>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="setting-item">
+                <img src="socialbook_img\images\setting.png" />
+                <a href="#" >Settings & Privacy</a>
+                <img src="socialbook_img\images\arrow.png"  class="arrow"/>
+            </div>
+            <div class="setting-item">
+                <img src="socialbook_img\images\help.png" />
+                <a href="#" >Help & Support</a>
+                <img src="socialbook_img\images\arrow.png"  class="arrow"/>
+            </div>
+            <div class="setting-item">
+                <img src="socialbook_img\images\display.png" />
+                <a href="#" >Display & Accessability</a>
+                <img src="socialbook_img\images\arrow.png" class="arrow"/>
+            </div>
+            <div class="setting-item">
+                <img src="socialbook_img\images\logout.png" />
+                <a href="#" >Logout</a>
+                <img src="socialbook_img\images\arrow.png"   class="arrow"/>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="container">
+        <div class="left">
+            <div class="a">
+                <a href="#"> <img src="socialbook_img\images\news.png" /> Latest news</a>
+                <a href="#"> <img src="socialbook_img\images\friends.png" /> Friends</a>
+                <a href="#"> <img src="socialbook_img\images\group.png" /> Group</a>
+                <a href="#"> <img src="socialbook_img\images\marketplace.png" /> Marketplace</a>
+                <a href="#"> <img src="socialbook_img\images\watch.png" /> Watch</a>
+                <a href="#" class="blue">See more</a>
+            </div>
+
+            <div class="shortcut a">
+                <p>Your Shortcuts</p>
+                <a href="#"> <img src="socialbook_img\images\shortcut-1.png" /> Web Developers</a>
+                <a href="#"> <img src="socialbook_img\images\shortcut-2.png" /> Web Design Course</a>
+                <a href="#"> <img src="socialbook_img\images\shortcut-3.png" /> Full stack Dev</a>
+                <a href="#"> <img src="socialbook_img\images\shortcut-4.png" /> Web Expert</a>
+
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="story-gallery">
+                <div class="story">
+                    <img src="socialbook_img\images\upload.png" />
+                    <p>Post Story</p>
+                </div>
+                <div class="story a4"
+                    style="background-image: linear-gradient(transparent,rgb(0, 0, 0,0.7)),url(socialbook_img/images/member-2.png);">
+                    <img src="socialbook_img\images\photo2.png" />
+                    <p>Allision</p>
+                </div>
+                <div class="story a4"
+                    style="background-image: linear-gradient(transparent,rgb(0, 0, 0,0.7)),url(socialbook_img/images/status-2.png);">
+                    <img src="socialbook_img\images\photo3.png" />
+                    <p>soumya</p>
+                </div>
+                <div class="story a4"
+                    style="background-image: linear-gradient(transparent,rgb(0, 0, 0,0.7)),url(socialbook_img/images/status-3.png);">
+                    <img src="socialbook_img\images\photo4.png" />
+                    <p>shankar</p>
+                </div>
+                <div class="story a4" style="background-image: url(socialbook_img/images/status-4.png);">
+                    <img src="socialbook_img\images\photo5.png" />
+                    <p>cp</p>
+                </div>
+                <div class="story a4"
+                    style="background-image: linear-gradient(transparent,rgb(0, 0, 0,0.7)),url(socialbook_img/images/status-5.png);">
+                    <img src="socialbook_img\images\photo6.png" />
+                    <p>qwe</p>
+                </div>
+            </div>
+
+            <div class="post">
+
+                <div class="post-name">
+                    <img src="socialbook_img\images\status-1.png" />
+                    <div class="p-text">
+                        <p>John Nicohloson</p>
+                        <small>Public</small>
+                    </div>
+                </div>
+                <div class="post-input">
+
+                    <textarea rows="3" placeholder="What's on your mind?"></textarea>
+                </div>
+                <div class="post-media">
+                    <a href="#"><img src="socialbook_img\images\photo.png" />
+                        <p>Photo</p>
+                    </a>
+                    <a href="#"><img src="socialbook_img\images\live-video.png" />
+                        <p>Live Video</p>
+                    </a>
+                    <a href="#"><img src="socialbook_img\images\feeling.png" />
+                        <p>Feeling</p>
+                    </a>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="hero-cont">
+                    <div class="post-name">
+                        <img src="socialbook_img\images\status-1.png" />
+                        <div class="p-text">
+                            <p>John Nicohloson</p>
+                            <p class="p">june 24 2023,12.00am</p>
+                        </div>
+
+                    </div>
+                    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda natus
+                        libero illum officiis inventore nostrum, et eum nam iusto laborum labore dolore
+                        tenetur blanditiis excepturi quibusdam asperiores voluptatibus laboriosam?</p>
+                    <div class="post-img"><img src="socialbook_img\images\feed-image-2.png" /></div>
+                    <div class="review">
+                        <div class="like"><img src="socialbook_img\images\like.png" />120</div>
+                        <div class="like"><img src="socialbook_img\images\share.png" />20</div>
+                        <div class="like"><img src="socialbook_img\images\comments.png" />1</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero">
+                <div class="hero-cont">
+                    <div class="post-name">
+                        <img src="socialbook_img\images\status-1.png" />
+                        <div class="p-text">
+                            <p>John Nicohloson</p>
+                            <p class="p">june 24 2023,12.00am</p>
+                        </div>
+
+                    </div>
+                    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda natus
+                        libero illum officiis inventore nostrum, et eum nam iusto laborum labore dolore
+                        tenetur blanditiis excepturi quibusdam asperiores voluptatibus laboriosam?</p>
+                    <div class="post-img"><img src="socialbook_img\images\feed-image-1.png" /></div>
+                    <div class="review">
+                        <div class="like"><img src="socialbook_img\images\like.png" />120</div>
+                        <div class="like"><img src="socialbook_img\images\share.png" />20</div>
+                        <div class="like"><img src="socialbook_img\images\comments.png" />1</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero">
+                <div class="hero-cont">
+                    <div class="post-name">
+                        <img src="socialbook_img\images\status-1.png" />
+                        <div class="p-text">
+                            <p>John Nicohloson</p>
+                            <p class="p">june 24 2023,12.00am</p>
+                        </div>
+
+                    </div>
+                    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda natus
+                        libero illum officiis inventore nostrum, et eum nam iusto laborum labore dolore
+                        tenetur blanditiis excepturi quibusdam asperiores voluptatibus laboriosam?</p>
+                    <div class="post-img"><img src="socialbook_img\images\feed-image-4.png" /></div>
+                    <div class="review">
+                        <div class="like"><img src="socialbook_img\images\like.png" />120</div>
+                        <div class="like"><img src="socialbook_img\images\share.png" />20</div>
+                        <div class="like"><img src="socialbook_img\images\comments.png" />1</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero">
+                <div class="hero-cont">
+                    <div class="post-name">
+                        <img src="socialbook_img\images\status-1.png" />
+                        <div class="p-text">
+                            <p>John Nicohloson</p>
+                            <p class="p">june 24 2023,12.00am</p>
+                        </div>
+
+                    </div>
+                    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda natus
+                        libero illum officiis inventore nostrum, et eum nam iusto laborum labore dolore
+                        tenetur blanditiis excepturi quibusdam asperiores voluptatibus laboriosam?</p>
+                    <div class="post-img"><img src="socialbook_img\images\feed-image-5.png" /></div>
+                    <div class="review">
+                        <div class="like"><img src="socialbook_img\images\like.png" />120</div>
+                        <div class="like"><img src="socialbook_img\images\share.png" />20</div>
+                        <div class="like"><img src="socialbook_img\images\comments.png" />1</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero">
+                <div class="hero-cont">
+                    <div class="post-name">
+                        <img src="socialbook_img\images\status-1.png" />
+                        <div class="p-text">
+                            <p>John Nicohloson</p>
+                            <p class="p">june 24 2023,12.00am</p>
+                        </div>
+
+                    </div>
+                    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda natus
+                        libero illum officiis inventore nostrum, et eum nam iusto laborum labore dolore
+                        tenetur blanditiis excepturi quibusdam asperiores voluptatibus laboriosam?</p>
+                    <div class="post-img"><img src="socialbook_img\images\member-4.png" /></div>
+                    <div class="review">
+                        <div class="like"><img src="socialbook_img\images\like.png" />120</div>
+                        <div class="like"><img src="socialbook_img\images\share.png" />20</div>
+                        <div class="like"><img src="socialbook_img\images\comments.png" />1</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero">
+                <div class="hero-cont">
+                    <div class="post-name">
+                        <img src="socialbook_img\images\status-1.png" />
+                        <div class="p-text">
+                            <p>John Nicohloson</p>
+                            <p class="p">june 24 2023,12.00am</p>
+                        </div>
+
+                    </div>
+                    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda natus
+                        libero illum officiis inventore nostrum, et eum nam iusto laborum labore dolore
+                        tenetur blanditiis excepturi quibusdam asperiores voluptatibus laboriosam?</p>
+                    <div class="post-img"><img src="socialbook_img\images\member-7.png" /></div>
+                    <div class="review">
+                        <div class="like"><img src="socialbook_img\images\like.png" />120</div>
+                        <div class="like"><img src="socialbook_img\images\share.png" />20</div>
+                        <div class="like"><img src="socialbook_img\images\comments.png" />1</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="right">
+
+            <div class="events">
+                <h3>Events</h3>
+                <a href="#" class="blue">See all</a>
+            </div>
+            <div>
+                <div class="eve">
+
+                    <div class="r-side">
+                        <h3>18</h3>
+                        <span>March</span>
+                    </div>
+                    <div class="l-side">
+                        <h3>Social Media</h3>
+                        <p>Willson Tech Park</p>
+                        <a href="#" class="blue">More info</a>
+                    </div>
+                </div>
+                <div class="eve">
+
+                    <div class="r-side">
+                        <h3>22</h3>
+                        <span>June</span>
+                    </div>
+                    <div class="l-side">
+                        <h3>Mobile Marketing</h3>
+                        <p>Willson Tech Park</p>
+                        <a href="#" class="blue">More info</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="events">
+                <h3>Advertisement</h3>
+                <a href="#" class="blue">Close</a>
+            </div>
+            <img src="socialbook_img\images\advertisement.png" class="ad" />
+            <div class="events">
+                <h3>Conversation</h3>
+                <a href="#" class="blue">Hide Chat</a>
+
+            </div>
+            <div class="a2">
+                <div class="online-ppl">
+                    <img src="socialbook_img\images\member-1.png" />
+                    <h4>Allision Mina</h4>
+                </div>
+                <div class="online-ppl">
+                    <img src="socialbook_img\images\member-2.png" />
+                    <h4>Allision Mina</h4>
+                </div>
+                <div class="online-ppl">
+                    <img src="socialbook_img\images\member-3.png" />
+                    <h4>Allision Mina</h4>
+                </div>
+                <div class="online-ppl">
+                    <img src="socialbook_img\images\member-4.png" />
+                    <h4>Allision Mina</h4>
+                </div>
+                <div class="online-ppl">
+                    <img src="socialbook_img\images\member-5.png" />
+                    <h4>Allision Mina</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
